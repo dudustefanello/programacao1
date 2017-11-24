@@ -1,0 +1,6 @@
+No código do exercício anterior, aumente a quantidade de números que terão os fatoriais impressos,
+até 20, 30, 40. Em um determinado momento, além desse cálculo demorar, vai começar a mostrar
+respostas completamente erradas. Por quê?
+
+As respostas começarão a ser apresentadas de forma errada por que os valores excederão o valor limite de um inteiro em java,
+que sendo apenas 32 bytes, o valor máximo que pode ser representado por um inteiro é aproxiamadamente 2.147.483.648
